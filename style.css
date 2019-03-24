@@ -88,7 +88,7 @@ section {
     height: 300px;
     justify-content: center;
     align-items: center;
-    background-image: url(https://images.pexels.com/photos/305239/pexels-photo-305239.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(img/freeweights.jpg), none;
     background-size: 100%;
     background-position: center;
 }
@@ -100,6 +100,7 @@ section {
     height: 275px;
     margin: auto;
     margin-top: 30px;
+    border: outset 10px rgb(68, 68, 68);
 }
 
 #video {
@@ -195,6 +196,7 @@ section {
 footer {
     background-color: rgb(68, 68, 68);
     color: white;
+    margin-top: 100px;
     padding: 20px;
     text-align: center;
     font-size: 12px;
